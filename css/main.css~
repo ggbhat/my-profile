@@ -329,25 +329,6 @@ footer {
 
 
 
-.contact {
-    background: none repeat scroll 0 0 #FFFFFF;
-    margin: auto;
-    padding: 10px;
-    text-align: center;
-    width: 50%;
-}
-.contact h1 {
-    color: #CE5043;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-.contact p {
-    color: #333333;
-    font-weight: normal;
-    text-transform: none;
-}
-
-
 
 .mobile, .email, .social, .copyright {
     float: left;
