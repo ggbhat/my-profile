@@ -119,7 +119,7 @@ header {
 
 .wrapper {
     margin: auto;
-    width: 960px;
+    width: 80%;
 }
 
 .main-menu {
@@ -155,6 +155,10 @@ header {
 
 }
 
+.main-menu ul li.active a {
+    border-bottom:5px solid #D1C825;
+}
+
 .main-menu li a:hover {
   color:#CE5043;
 }
@@ -162,14 +166,21 @@ header {
 .my-photo img {
     border-radius: 150px;
     float: left;
-    height: 250px;
-    width: 250px;
+    height: 300px;
+    width: 300px;
+}
+
+.sk {
+    list-style: none;
+}
+.sk h3 {
+    margin-bottom: 5px;
 }
 
 .my-data {
     display: block;
     float: right;
-    width: 560px;
+    width: 60%;
 }
 
 
@@ -270,16 +281,23 @@ header {
 }
 .des p {
     color: #606060;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 footer {
     background: none repeat scroll 0 0 #CE5043;
-    height: 100px;
+    height: 80px;
     width:100%;
+    padding-top:20px ;
     float:left;
+    position: absolute;
+    bottom: 0;
 }
 
+.cv-cnt {
+    background: #fff;
+    height: 67vh;
+}
 
 
 .social li {
